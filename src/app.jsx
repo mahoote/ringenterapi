@@ -1,11 +1,11 @@
 import React, { useEffect } from "react";
 import { BrowserRouter, Route, Routes, useLocation } from "react-router-dom";
-import { HomePageStyled } from "./pages/homePage/homePage.style";
-import { ErrorPage } from "./pages/errorPage/errorPage";
-import { ContactPage } from "./pages/contactPage/contactPage";
-import { AboutPage } from "./pages/aboutPage/aboutPage";
-import { ServicesPage } from "./pages/servicesPage/servicesPage";
-import { PricesPage } from "./pages/pricesPage/pricesPage";
+import HomeStyled from "./pages/Home.style";
+import Error from "./pages/Error";
+import Contact from "./pages/Contact";
+import About from "./pages/About";
+import Services from "./pages/Services";
+import Prices from "./pages/Prices";
 
 const ScrollToTop = (props) => {
   const location = useLocation();
@@ -21,12 +21,12 @@ function App() {
     <BrowserRouter>
       <ScrollToTop>
         <Routes>
-          <Route path={"/"} element={<HomePageStyled />} />
-          <Route path={"/contact"} element={<ContactPage />} />
-          <Route path={"/about"} element={<AboutPage />} />
-          <Route path={"/services"} element={<ServicesPage />} />
-          <Route path={"/prices"} element={<PricesPage />} />
-          <Route path={"/*"} element={<ErrorPage />} />
+          <Route path={"/"} element={<HomeStyled />} />
+          <Route path={"/contact"} element={<Contact />} />
+          <Route path={"/about"} element={<About />} />
+          <Route path={"/services"} element={<Services />} />
+          <Route path={"/prices"} element={<Prices />} />
+          <Route path={"/*"} element={<Error />} />
         </Routes>
       </ScrollToTop>
     </BrowserRouter>

@@ -1,11 +1,11 @@
 import React from "react";
-import { PageLayout } from "../../components/containers/pageLayout/pageLayout";
-import { ContactInfo } from "../../components/containers/contactPage/contactInfo/contactInfo";
-import { ContactForm } from "../../components/containers/contactPage/contactForm/contactForm";
-import data from "../../assets/data.json";
+import { PageLayout } from "../components/containers/pageLayout/pageLayout";
+import { ContactInfo } from "../components/containers/contactPage/contactInfo/contactInfo";
+import { ContactForm } from "../components/containers/contactPage/contactForm/contactForm";
+import data from "../assets/data.json";
 import { Helmet } from "react-helmet";
 
-export function ContactPage(props) {
+function Contact(props) {
   return (
     <PageLayout className={props.className}>
       <Helmet>
@@ -18,3 +18,5 @@ export function ContactPage(props) {
     </PageLayout>
   );
 }
+
+export default Contact;

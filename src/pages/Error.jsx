@@ -1,12 +1,12 @@
 import React from "react";
-import { GlobalStyle } from "../../components/globals/global.style";
-import { HeaderStyled } from "../../components/header/header.style";
-import { GridStyled } from "../../components/grids/grid.style";
-import { TextStyled } from "../../components/text/text.style";
-import data from "../../assets/data.json";
+import { GlobalStyle } from "../components/globals/global.style";
+import { HeaderStyled } from "../components/header/header.style";
+import { GridStyled } from "../components/grids/grid.style";
+import { TextStyled } from "../components/text/text.style";
+import data from "../assets/data.json";
 import { Helmet } from "react-helmet";
 
-function ErrorPage() {
+function Error() {
   return (
     <GridStyled>
       <Helmet>
@@ -22,4 +22,4 @@ function ErrorPage() {
   );
 }
 
-export { ErrorPage };
+export default Error;
