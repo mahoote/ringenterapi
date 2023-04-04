@@ -27,14 +27,14 @@ function MainSectionTwoText(props) {
       />
       <TextStyled
         className={"is-hidden-tablet has-text-centered"}
-        textWeight={"bold"}
+        textWeight={"light"}
         text={data.homePage.section2.line.text}
         sizeDesktop={desktopSmall}
         sizeTablet={tabletSmall}
         sizeMobile={desktopSmall}
         highlightPosStart={data.homePage.section2.line.highlightPosStart}
         highlightPosEnd={data.homePage.section2.line.highlightPosEnd}
-        highlightTextWeight={"light"}
+        highlightTextWeight={"bold"}
       />
     </div>
   );

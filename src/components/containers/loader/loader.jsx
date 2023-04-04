@@ -23,7 +23,7 @@ function Loader(props) {
     if (topEnd > showThreshold && !divShown) {
       setDivShown(true);
     }
-  }, [topStart, topEnd]);
+  }, [topStart, topEnd, divShown]);
 
   return (
     <LoaderContentStyled

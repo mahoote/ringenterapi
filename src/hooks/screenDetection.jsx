@@ -29,7 +29,7 @@ export function useGetScreenDistance(ref) {
   // After scrolling.
   useEffect(() => {
     window.addEventListener("scroll", onScroll);
-  }, []);
+  }, [onScroll]);
 
   return { topStart, topEnd, bottomEnd };
 }
@@ -37,12 +37,12 @@ export function useGetScreenDistance(ref) {
 export function useResize(resizeHandler) {
   useEffect(() => {
     resizeHandler();
-  }, []);
+  }, [resizeHandler]);
 
   useEffect(() => {
     window.addEventListener("resize", resizeHandler);
     return () => {
       window.removeEventListener("resize", resizeHandler);
     };
-  }, []);
+  }, [resizeHandler]);
 }
