@@ -4,10 +4,15 @@ import { MainSectionTwoStyled } from "../../components/containers/mainPage/secti
 import { MainSectionThreeStyled } from "../../components/containers/mainPage/section03/mainSectionThree.style";
 import { MainSectionFourStyled } from "../../components/containers/mainPage/section04/mainSectionFour.style";
 import { PageLayout } from "../../components/containers/pageLayout/pageLayout";
+import data from "../../assets/data.json";
+import { Helmet } from "react-helmet";
 
 function HomePage(props) {
   return (
     <PageLayout className={props.className}>
+      <Helmet>
+        <title>{data.websiteName}</title>
+      </Helmet>
       <MainSectionOneStyled className={"py-4"} />
       <MainSectionTwoStyled />
       <MainSectionThreeStyled className={"py-6"} />
