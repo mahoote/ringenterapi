@@ -13,7 +13,6 @@ import {
   AboutSectionTwoParagraphItemStyled,
 } from "./aboutSectionTwo.style";
 import { CenterStyled } from "../../center/center.style";
-import { standardColors } from "../../../../palettes/standardColors.style";
 import { Loader } from "../../loader/loader";
 
 function AboutSectionTwoParagraphItem(props) {
@@ -42,25 +41,15 @@ function AboutSectionTwoParagraph(props) {
     <Loader
       content={
         <div className={"my-6 py-1"}>
-          <div className={"has-text-centered my-6"}>
-            <hr
-              style={{
-                backgroundColor: standardColors.brown4,
-                maxWidth: "60%",
-                margin: "3em auto",
-              }}
-            />
-            <TextStyled
-              text={props.headline}
-              sizeDesktop={tabletBig}
-              sizeTablet={tabletBig}
-              sizeMobile={mobileBig}
-              textWeight={"bold"}
-            />
-          </div>
-          <CenterStyled
-            content={<AboutSectionTwoParagraphItemStyled list={props.list} />}
+          <TextStyled
+            className={"mb-3"}
+            text={props.headline}
+            sizeDesktop={tabletBig}
+            sizeTablet={tabletBig}
+            sizeMobile={mobileBig}
+            textWeight={"bold"}
           />
+          <AboutSectionTwoParagraphItemStyled list={props.list} />
         </div>
       }
     />

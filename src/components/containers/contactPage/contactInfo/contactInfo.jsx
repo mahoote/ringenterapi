@@ -48,20 +48,28 @@ function ContactInfoLine(props) {
       icon = faPhone;
       break;
     }
-    default: {
+    case "location": {
       icon = faLocationPin;
+      break;
+    }
+    default: {
+      icon = null;
       break;
     }
   }
 
   return (
     <div className={"my-3 is-flex is-vcentered"}>
-      <FontAwesomeIcon
-        icon={icon}
-        size={"2x"}
-        className={"mr-4"}
-        style={{ width: "40px" }}
-      />
+      {icon ? (
+        <FontAwesomeIcon
+          icon={icon}
+          size={"2x"}
+          className={"mr-4"}
+          style={{ width: "40px" }}
+        />
+      ) : (
+        ""
+      )}
       <TextStyled
         text={props.line.text}
         sizeDesktop={tabletSmall}
@@ -81,8 +89,9 @@ function ContactInfoContent(props) {
         <CenterStyled
           className={props.className}
           content={
-            <div className={"my-6 has-text-centered"}>
+            <div className={"my-6"}>
               <TextStyled
+                className={"has-text-centered"}
                 text={data.contactPage.contactInfo.line1.text}
                 sizeDesktop={desktopBig}
                 sizeTablet={tabletBig}

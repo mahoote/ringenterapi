@@ -24,6 +24,12 @@
   ],
   "info": [
     {
+      "text": "Skillebekk-klinikken ons og fre kl. 8-14."
+    },
+    {
+      "text": "Bedriftsrådgivning og \ntelefonkonsultasjon man-tor kl. 13-19."
+    },
+    {
       "text": "Niels Juelsgate 18, 0272 Oslo",
       "icon": "location"
     },
@@ -313,11 +319,17 @@
       "prices": [
         {
           "service": {
-            "text": "Atferdsendring"
+            "text": "Standard"
           },
-          "value": {
-            "text": "500"
-          }
+          "value": 790,
+          "mva": 25
+        },
+        {
+          "service": {
+            "text": "Bedriftsrådgivning og telefonkonsultasjon"
+          },
+          "value": 750,
+          "mva": 25
         }
       ]
     }

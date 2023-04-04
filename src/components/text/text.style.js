@@ -28,4 +28,10 @@ const TextLinkStyled = styled(TextLink)`
   color: inherit !important;
 `;
 
-export { TextStyled, TextContentSpanStyled, TextLinkStyled };
+const HrefLinkStyled = styled("a")`
+  &:hover {
+    text-decoration: underline;
+  }
+`;
+
+export { TextStyled, TextContentSpanStyled, TextLinkStyled, HrefLinkStyled };

@@ -1,6 +1,10 @@
 import React from "react";
 import { useTextWeight } from "../../hooks/text";
-import { TextContentSpanStyled, TextLinkStyled } from "./text.style";
+import {
+  HrefLinkStyled,
+  TextContentSpanStyled,
+  TextLinkStyled,
+} from "./text.style";
 import { Link } from "react-router-dom";
 
 function TextContentSpan(props) {
@@ -35,9 +39,9 @@ function TextLink(props) {
 
   if (to.toString().startsWith("http") || to.toString().startsWith("www")) {
     return (
-      <a href={to} target={"_blank"} className={className}>
+      <HrefLinkStyled href={to} target={"_blank"} className={className}>
         {props.TextContent}
-      </a>
+      </HrefLinkStyled>
     );
   }
 

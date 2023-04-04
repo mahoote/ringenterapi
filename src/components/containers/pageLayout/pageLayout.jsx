@@ -6,12 +6,14 @@ import React from "react";
 
 function PageLayout(props) {
   return (
-    <GridStyled className={props.className}>
+    <>
       <GlobalStyle />
-      <HeaderStyled />
-      <div>{props.children}</div>
-      <FooterStyled />
-    </GridStyled>
+      <GridStyled className={props.className}>
+        <HeaderStyled />
+        <div>{props.children}</div>
+        <FooterStyled />
+      </GridStyled>
+    </>
   );
 }
 
