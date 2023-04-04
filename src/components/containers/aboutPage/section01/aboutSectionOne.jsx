@@ -15,6 +15,7 @@ import {
   AboutSectionOneParagraphStyled,
 } from "./aboutSectionOne.style";
 import { ImageTextSection } from "../../imageTextSection/imageTextSection";
+import { CenterStyled } from "../../center/center.style";
 
 const images = [
   {
@@ -68,9 +69,13 @@ function AboutSectionOne(props) {
     <ImageTextSection
       className={props.className}
       borderImagesHeight={"300px"}
-      textContentFirst={<AboutSectionOneIntroStyled />}
+      textContentFirst={
+        <CenterStyled content={<AboutSectionOneIntroStyled />} />
+      }
       images={[images[0]]}
-      textContentSecond={<AboutSectionOneParagraphStyled />}
+      textContentSecond={
+        <CenterStyled content={<AboutSectionOneParagraphStyled />} />
+      }
     />
   );
 }

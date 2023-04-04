@@ -11,13 +11,14 @@ const AboutSectionTwoStyled = styled(AboutSectionTwo)`
 `;
 
 const AboutSectionTwoContentStyled = styled(AboutSectionTwoContent)`
-  width: 85%;
-`;
-
-const AboutSectionTwoParagraphItemStyled = styled(AboutSectionTwoParagraphItem)`
-  @media screen and ${device.tablet} {
+  @media screen and ${device.tabletMax} {
+    width: 85%;
   }
 `;
+
+const AboutSectionTwoParagraphItemStyled = styled(
+  AboutSectionTwoParagraphItem
+)``;
 
 export {
   AboutSectionTwoStyled,

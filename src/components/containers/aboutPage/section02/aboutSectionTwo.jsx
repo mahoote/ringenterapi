@@ -20,10 +20,11 @@ function AboutSectionTwoParagraphItem(props) {
 
   return (
     <div className={props.className}>
-      <ul>
+      <ul style={{ listStyleType: "square" }}>
         {list.map((item, i) => (
           <li key={i}>
             <TextStyled
+              className={"my-2"}
               text={item}
               sizeDesktop={desktopSmall}
               sizeTablet={tabletSmall}
@@ -94,7 +95,7 @@ function AboutSectionTwoContent(props) {
 function AboutSectionTwo(props) {
   return (
     <div className={props.className}>
-      <AboutSectionTwoContentStyled />
+      <CenterStyled content={<AboutSectionTwoContentStyled />} />
     </div>
   );
 }
