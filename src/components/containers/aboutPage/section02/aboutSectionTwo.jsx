@@ -63,7 +63,7 @@ function AboutSectionTwoContent(props) {
     <CenterStyled
       content={
         <div className={props.className}>
-          <div className={"has-text-centered pt-5 pb-0"}>
+          <div className={"has-text-centered-tablet pt-5 pb-0"}>
             <Loader
               content={
                 <TextStyled

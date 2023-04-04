@@ -27,7 +27,7 @@ function PricesSectionOne(props) {
                   <div>
                     <hr
                       style={{
-                        backgroundColor: standardColors.brown4,
+                        backgroundColor: standardColors.black1,
                         maxWidth: "30%",
                         margin: "2rem auto",
                       }}
