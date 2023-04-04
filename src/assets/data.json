@@ -1,5 +1,5 @@
 {
-  "websiteName": "Ringenterapi",
+  "websiteName": "Ringen Terapi",
   "links": [
     {
       "name": "Om meg",
@@ -30,6 +30,12 @@
     {
       "text": "+47 926 36 601",
       "icon": "phone"
+    }
+  ],
+  "socialMedia": [
+    {
+      "link": "https://www.facebook.com/profile.php?id=100078164824593",
+      "icon": "facebook"
     }
   ],
   "homePage": {
@@ -68,7 +74,7 @@
     },
     "section2": {
       "line": {
-        "text": "Med bakgrunn i atferds- og organisasjonspsykologi, kompleksitetsteori, pedagogikk, kunst- og kroppsterapi, behandler Ringenterapi tanker, kropp og det sosiale neverket som ett.",
+        "text": "Med bakgrunn i atferds- og organisasjonspsykologi, kompleksitetsteori, pedagogikk, kunst- og kroppsterapi, behandler Ringen Terapi tanker, kropp og det sosiale neverket som ett.",
         "highlightPosStart": 14,
         "highlightPosEnd": 21
       }
@@ -211,46 +217,25 @@
       {
         "title": "Familie-rådgivning",
         "about": "Lorem ipsum",
-        "list": [
-          "Punkt",
-          "Punkt",
-          "Punkt",
-          "Punkt"
-        ],
+        "list": ["Punkt", "Punkt", "Punkt", "Punkt"],
         "pageLink": "/services"
-      },{
+      },
+      {
         "title": "Organisasjons-psykologi",
         "about": "Lorem ipsum",
-        "list": [
-          "Punkt",
-          "Punkt",
-          "Punkt",
-          "Punkt"
-        ],
+        "list": ["Punkt", "Punkt", "Punkt", "Punkt"],
         "pageLink": "/services"
       },
       {
         "title": "Psykoterapi",
         "about": "Lorem ipsum",
-        "list": [
-          "Punkt",
-          "Punkt",
-          "Punkt",
-          "Punkt",
-          "Punkt",
-          "Punkt"
-        ],
+        "list": ["Punkt", "Punkt", "Punkt", "Punkt", "Punkt", "Punkt"],
         "pageLink": "/services"
       },
       {
         "title": "Kroppsterapi",
         "about": "Lorem ipsum",
-        "list": [
-          "Punkt",
-          "Punkt",
-          "Punkt",
-          "Punkt"
-        ],
+        "list": ["Punkt", "Punkt", "Punkt", "Punkt"],
         "pageLink": "/services"
       }
     ],

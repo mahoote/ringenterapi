@@ -63,13 +63,13 @@ function ServicesSectionTwo(props) {
     <ImageTextSection
       className={props.className}
       borderImagesHeight={"350px"}
+      images={[images[0], images[1]]}
       textContentFirst={
         <ServicesSectionOneService
           headline={services[0].title}
           text={services[0].about}
         />
       }
-      images={[images[0], images[1]]}
       textContentSecond={
         <ServicesSectionOneService
           headline={services[1].title}

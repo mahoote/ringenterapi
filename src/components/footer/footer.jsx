@@ -1,11 +1,17 @@
 import React, { useState } from "react";
 import { CenterStyled } from "../containers/center/center.style";
-import { TextStyled } from "../text/text.style";
+import { TextLinkStyled, TextStyled } from "../text/text.style";
 import { standardColors } from "../../palettes/standardColors.style";
 import { size } from "../../sizes/screenSize.style";
 import { useResize } from "../../hooks/screenDetection";
 
 import data from "../../assets/data.json";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faFacebook,
+  faInstagram,
+  faTwitter,
+} from "@fortawesome/free-brands-svg-icons";
 
 const currentYear = new Date().getFullYear();
 
@@ -79,13 +85,43 @@ function Footer(props) {
   }
 
   function InfoLines() {
-    const info = data.info;
+    const { info, socialMedia } = data;
 
     return (
       <div>
-        {info.map((line, i) => (
-          <TextStyled key={i} text={line.text} sizeDesktop={5} />
-        ))}
+        <div className={"mb-2"}>
+          {info.map((line, i) => (
+            <TextStyled key={i} text={line.text} sizeDesktop={5} />
+          ))}
+        </div>
+
+        {socialMedia.map((media, i) => {
+          let icon;
+
+          switch (media.icon) {
+            case "twitter": {
+              icon = faTwitter;
+              break;
+            }
+            case "instagram": {
+              icon = faInstagram;
+              break;
+            }
+            default: {
+              icon = faFacebook;
+              break;
+            }
+          }
+
+          return (
+            <TextLinkStyled
+              className={"m-1"}
+              key={i}
+              to={media.link}
+              TextContent={<FontAwesomeIcon icon={icon} size={"2x"} />}
+            />
+          );
+        })}
       </div>
     );
   }
