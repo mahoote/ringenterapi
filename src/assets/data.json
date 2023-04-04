@@ -1,0 +1,340 @@
+{
+  "websiteName": "Ringenterapi",
+  "links": [
+    {
+      "name": "Om meg",
+      "pageLink": "/about",
+      "type": "text"
+    },
+    {
+      "name": "Tjenester",
+      "pageLink": "/services",
+      "type": "text"
+    },
+    {
+      "name": "Priser",
+      "pageLink": "/prices",
+      "type": "text"
+    },
+    {
+      "name": "Ta en prat",
+      "pageLink": "/contact",
+      "type": "button"
+    }
+  ],
+  "info": [
+    {
+      "text": "Niels Juelsgate 18, 0272 Oslo",
+      "icon": "location"
+    },
+    {
+      "text": "+47 926 36 601",
+      "icon": "phone"
+    }
+  ],
+  "homePage": {
+    "section1": {
+      "heading": {
+        "line1": {
+          "text": "Atferd- og psykosomatisk terapi",
+          "highlightPosStart": 0,
+          "highlightPosEnd": 0
+        },
+        "line2": {
+          "text": "Behandling av depresjon, angst, opplevd ensomhet, utfordringer i arbeid, relasjoner og familie. \n\nOpplevelse av konflikter med omverden, manglende gjennomføringsevne, Smerter i kropp, overvekt eller tvangspreget atferd, krever ofte en bred og helhetlig tilnærming fordi utfordringer ofte henger sammen og påvirkes gjensidig."
+        },
+        "line3": {
+          "text": "I OSLO"
+        }
+      },
+      "about": {
+        "line1": {
+          "text": "Hei, jeg er Lin"
+        },
+        "line2": {
+          "text": "Jeg ble tidlig opptatt av psykologi, især læringspsykologi - hva som utvikler atferdsmønstre i personer og grupper, noe som nok skyldes å vokse opp med å kjenne seg annerledes i et typisk nyrikt område et stenkast fra forskjellene over Oslogrensa."
+        }
+      },
+      "image1": {
+        "description": "To personer som har samtaleterapi.",
+        "width": "500px",
+        "widthMobile": "300px"
+      },
+      "image2": {
+        "description": "Lin Ruud, hovedterapauten.",
+        "width": "400px",
+        "widthMobile": "300px"
+      }
+    },
+    "section2": {
+      "line": {
+        "text": "Med bakgrunn i atferds- og organisasjonspsykologi, kompleksitetsteori, pedagogikk, kunst- og kroppsterapi, behandler Ringenterapi tanker, kropp og det sosiale neverket som ett.",
+        "highlightPosStart": 14,
+        "highlightPosEnd": 21
+      }
+    },
+    "section3": {
+      "heading": {
+        "line1": {
+          "text": "Hvordan kan jeg hjelpe?"
+        },
+        "line2": {
+          "text": "Mine tjenester"
+        }
+      },
+      "image1": {
+        "description": "To sofaer. En har en laptop på seg. Ved siden av, står en stor plante",
+        "width": "400px",
+        "widthMobile": "200px"
+      }
+    },
+    "section4": {
+      "contact": {
+        "line1": {
+          "text": "Ta kontakt og la oss bli kjent"
+        },
+        "line2": {
+          "text": "Å behandle hele mennesket - psykisk som fysisk og nettverket rundt, familie som arbeid, er min styrke og erfaring på godt og vondt. Alt henger jo sammen med alt og det er derfor jeg kanskje kan hjelpe nettopp deg, din familie og arbeid. "
+        },
+        "button": {
+          "name": "Kontakt meg"
+        }
+      }
+    }
+  },
+  "contactPage": {
+    "contactInfo": {
+      "line1": {
+        "text": "Min info"
+      },
+      "image1": {
+        "description": "To stoler i et rom. En plante mellom dem. Bildet gir en følelse av beroligende stemning.",
+        "width": "400px",
+        "widthMobile": "200px"
+      }
+    },
+    "contactForm": {
+      "line1": {
+        "text": "La oss ta en prat"
+      },
+      "line2": {
+        "text": "Jeg svarer deg innen ANTALL dager."
+      },
+      "formValues": [
+        {
+          "text": "Fullt navn",
+          "required": true,
+          "type": "text",
+          "size": 12,
+          "name": "from_name"
+        },
+        {
+          "text": "Epost",
+          "required": true,
+          "type": "email",
+          "size": 6,
+          "name": "email_address"
+        },
+        {
+          "text": "Telefon",
+          "required": false,
+          "type": "tel",
+          "size": 6,
+          "name": "tlf_number"
+        },
+        {
+          "text": "Hvordan hørte du om meg?",
+          "required": true,
+          "type": "text",
+          "size": 12,
+          "name": "discovery"
+        },
+        {
+          "text": "Emne",
+          "required": true,
+          "type": "text",
+          "size": 12,
+          "name": "subject"
+        },
+        {
+          "text": "Hvordan kan jeg hjelpe?",
+          "required": true,
+          "type": "textarea",
+          "size": 12,
+          "name": "message"
+        }
+      ]
+    }
+  },
+  "aboutPage": {
+    "section1": {
+      "headline1": {
+        "text": "Lin Therese Bjørnstad"
+      },
+      "paragraph1": {
+        "text": "Jeg heter Lin Therese Bjørnstad og bor for tiden med to store barn like utenfor Oslo øst hvor jeg også vokste opp på 70-80 tallet - en tid i enorm utvikling. \n\nJeg ble tidlig opptatt av psykologi, især læringspsykologi - hva som utvikler atferdsmønstre i personer og grupper, noe som nok skyldes å vokse opp med å kjenne seg annerledes i et typisk nyrikt område et stenkast fra forskjellene over Oslogrensa."
+      },
+      "paragraph2": {
+        "text": "Engasjement for like muligheter og mot urettferdighet førte meg ikke bare inn i psykologi og oppvekstyrket, men også inn i kunst som eneste frie uttrykksform og senere som varsler med alt det kan innebære, noe som igjen ledet til master i organisasjonspsykologi og kroppsterapi fordi kroppen bærer på minner og stress psyken ikke alltid klarer å uttrykke."
+      },
+      "image1": {
+        "description": "Lin Ruud, hovedterapauten.",
+        "width": "400px",
+        "widthMobile": "250px"
+      }
+    },
+    "section2": {
+      "headline1": {
+        "text": "Profesjonell bakgrunn og kvalifikasjoner"
+      },
+      "paragraphs": [
+        {
+          "headline": {
+            "text": "Utdanning og arbeidserfaring"
+          },
+          "list": [
+            "Master i atferdspsykologi og organisasjonspsykologi (Oslo Met).",
+            "Master i læring i komplekse systemer.",
+            "Bachelor i barnehagepedagogikk med barne-og familieveiledning.",
+            "Utdannet kroppsterapeut og kunst.",
+            "Lang erfaring innen veiledning, miljøterapi i psykiatri, organisasjon og ledelse i flere selskap.",
+            "Ernæringsrådgiver for Sunkost og foodiebox.",
+            "Fordypning i varsleres psykiske og fysiske helse.",
+            "Forsket på gjennomføringsevne."
+          ]
+        }
+      ]
+    }
+  },
+  "servicesPage": {
+    "categories": [
+      {
+        "title": "Familie-rådgivning",
+        "about": "Lorem ipsum",
+        "list": [
+          "Punkt",
+          "Punkt",
+          "Punkt",
+          "Punkt"
+        ],
+        "pageLink": "/services"
+      },{
+        "title": "Organisasjons-psykologi",
+        "about": "Lorem ipsum",
+        "list": [
+          "Punkt",
+          "Punkt",
+          "Punkt",
+          "Punkt"
+        ],
+        "pageLink": "/services"
+      },
+      {
+        "title": "Psykoterapi",
+        "about": "Lorem ipsum",
+        "list": [
+          "Punkt",
+          "Punkt",
+          "Punkt",
+          "Punkt",
+          "Punkt",
+          "Punkt"
+        ],
+        "pageLink": "/services"
+      },
+      {
+        "title": "Kroppsterapi",
+        "about": "Lorem ipsum",
+        "list": [
+          "Punkt",
+          "Punkt",
+          "Punkt",
+          "Punkt"
+        ],
+        "pageLink": "/services"
+      }
+    ],
+    "services": [
+      {
+        "title": "Atferdsendring",
+        "about": "Lorem ipsum",
+        "pageLink": "/services",
+        "image": {
+          "description": "Atferdsendring",
+          "width": "500px",
+          "widthMobile": "300px"
+        }
+      },
+      {
+        "title": "Kropps- og triggerpunktterapi",
+        "about": "Lorem ipsum",
+        "pageLink": "/services",
+        "image": {
+          "description": "Kropps- og triggerpunktterapi",
+          "width": "500px",
+          "widthMobile": "300px"
+        }
+      },
+      {
+        "title": "Stress- og livsstilmestring",
+        "about": "Lorem ipsum",
+        "pageLink": "/services",
+        "image": {
+          "description": "Stress- og livsstilmestring",
+          "width": "500px",
+          "widthMobile": "300px"
+        }
+      },
+      {
+        "title": "Barne-og familierådgivning",
+        "about": "Lorem ipsum",
+        "pageLink": "/services",
+        "image": {
+          "description": "Barne-og familierådgivning",
+          "width": "500px",
+          "widthMobile": "300px"
+        }
+      },
+      {
+        "title": "Organisasjonspsykologi",
+        "about": "Lorem ipsum",
+        "pageLink": "/services",
+        "image": {
+          "description": "Organisasjonspsykologi",
+          "width": "500px",
+          "widthMobile": "300px"
+        }
+      }
+    ],
+    "section1": {
+      "line1": {
+        "text": "Terapi tjenester"
+      },
+      "line2": {
+        "text": "INDIVIDUELL, FAMILIE, OG ARBEIDSPLASS"
+      },
+      "image1": {
+        "description": "To personer som har samtaleterapi.",
+        "width": "500px",
+        "widthMobile": "300px"
+      }
+    }
+  },
+  "pricesPage": {
+    "section1": {
+      "line1": {
+        "text": "Priser"
+      },
+      "prices": [
+        {
+          "service": {
+            "text": "Atferdsendring"
+          },
+          "value": {
+            "text": "500"
+          }
+        }
+      ]
+    }
+  }
+}

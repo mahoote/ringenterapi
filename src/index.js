@@ -1,13 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+import App from './app';
 import reportWebVitals from './reportWebVitals';
+
+import "bulma/css/bulma.min.css";
+import "./css/menuBurger.css";
+import { FontStyles } from "./components/globals/fonts/fonts.style";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+      <FontStyles />
+      <App />
   </React.StrictMode>
 );
 
