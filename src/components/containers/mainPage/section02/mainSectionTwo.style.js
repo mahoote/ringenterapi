@@ -5,7 +5,7 @@ import { MainSectionTwo, MainSectionTwoText } from "./mainSectionTwo";
 
 const MainSectionTwoStyled = styled(MainSectionTwo)`
   color: ${standardColors.blue3};
-  background-color: transparent;
+  background-color: ${standardColors.blue1};
 
   padding: 30em 2em;
 

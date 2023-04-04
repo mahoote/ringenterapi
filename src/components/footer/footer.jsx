@@ -91,12 +91,7 @@ function Footer(props) {
       <div>
         <div className={"mb-2"}>
           {info.map((line, i) => (
-            <TextStyled
-              key={i}
-              text={line.text}
-              sizeDesktop={5}
-              className={"my-2"}
-            />
+            <TextStyled key={i} text={line.text} sizeDesktop={5} />
           ))}
         </div>
 

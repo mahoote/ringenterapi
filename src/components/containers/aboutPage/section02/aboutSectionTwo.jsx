@@ -20,7 +20,7 @@ function AboutSectionTwoParagraphItem(props) {
 
   return (
     <div className={props.className}>
-      <ul style={{ listStyleType: "circle" }}>
+      <ul>
         {list.map((item, i) => (
           <li key={i}>
             <TextStyled
@@ -40,13 +40,13 @@ function AboutSectionTwoParagraph(props) {
   return (
     <Loader
       content={
-        <div className={"my-6 py-1"}>
+        <div className={"my-5 py-1"}>
           <TextStyled
             className={"mb-3"}
             text={props.headline}
-            sizeDesktop={tabletBig}
-            sizeTablet={tabletBig}
-            sizeMobile={mobileBig}
+            sizeDesktop={tabletSmall}
+            sizeTablet={tabletSmall}
+            sizeMobile={tabletSmall}
             textWeight={"bold"}
           />
           <AboutSectionTwoParagraphItemStyled list={props.list} />

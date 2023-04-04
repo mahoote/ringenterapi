@@ -24,10 +24,10 @@
   ],
   "info": [
     {
-      "text": "Skillebekk-klinikken ons og fre kl. 8-14."
+      "text": "Skillebekk-klinikken ons og fre kl. 8-14. \nBedriftsrådgivning og \ntelefonkonsultasjon man-tor kl. 13-19."
     },
     {
-      "text": "Bedriftsrådgivning og \ntelefonkonsultasjon man-tor kl. 13-19."
+      "text": ""
     },
     {
       "text": "Niels Juelsgate 18, 0272 Oslo",
@@ -48,7 +48,7 @@
     "section1": {
       "heading": {
         "line1": {
-          "text": "Atferd- og psykosomatisk terapi",
+          "text": "Atferd- og \npsykosomatisk terapi",
           "highlightPosStart": 0,
           "highlightPosEnd": 0
         },
@@ -81,8 +81,8 @@
     "section2": {
       "line": {
         "text": "Med bakgrunn i atferds- og organisasjonspsykologi, kompleksitetsteori, pedagogikk, kunst- og kroppsterapi, behandler Ringen Terapi tanker, kropp og det sosiale neverket som ett.",
-        "highlightPosStart": 14,
-        "highlightPosEnd": 21
+        "highlightPosStart": 15,
+        "highlightPosEnd": 22
       }
     },
     "section3": {
@@ -130,7 +130,7 @@
         "text": "La oss ta en prat"
       },
       "line2": {
-        "text": "Jeg svarer deg innen ANTALL dager."
+        "text": "Jeg svarer deg innen en dag."
       },
       "formValues": [
         {

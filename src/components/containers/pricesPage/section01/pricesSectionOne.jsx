@@ -44,12 +44,13 @@ function PricesSectionOne(props) {
               // Calculates what the mva will be.
               // The mva variable is the percentage but in number between 0 and 100.
               const valueMva = value * (mva / 100);
+              const sum = (value + valueMva).toFixed(2);
 
               return (
                 <AboutSectionTwoParagraph
                   key={i}
                   headline={p.service.text}
-                  list={[`${value + valueMva}kr`]}
+                  list={[`${sum.toString().replace(".", ",")} kr`]}
                 />
               );
             })}
