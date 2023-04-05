@@ -14,6 +14,7 @@ import {
   faLocationPin,
   faEnvelope,
   faPhone,
+  faUser,
 } from "@fortawesome/free-solid-svg-icons";
 import {
   ContactInfoContentStyled,
@@ -40,6 +41,10 @@ function ContactInfoLine(props) {
   let icon;
 
   switch (props.line.icon) {
+    case "user": {
+      icon = faUser;
+      break;
+    }
     case "email": {
       icon = faEnvelope;
       break;
