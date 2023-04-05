@@ -39,18 +39,18 @@ function PricesSectionOne(props) {
           </div>
           <div>
             {prices.map((p, i) => {
-              const { value, mva } = p;
-
-              // Calculates what the mva will be.
-              // The mva variable is the percentage but in number between 0 and 100.
-              const valueMva = value * (mva / 100);
-              const sum = (value + valueMva).toFixed(2);
+              const { value } = p;
 
               return (
                 <AboutSectionTwoParagraph
                   key={i}
                   headline={p.service.text}
-                  list={[`${sum.toString().replace(".", ",")} kr`]}
+                  list={[
+                    `${value
+                      .toFixed(2)
+                      .toString()
+                      .replace(".", ",")} kr (eks mva)`,
+                  ]}
                   hasStyleType={false}
                 />
               );

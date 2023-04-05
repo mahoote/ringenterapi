@@ -328,15 +328,13 @@
           "service": {
             "text": "Standard"
           },
-          "value": 790,
-          "mva": 25
+          "value": 790
         },
         {
           "service": {
             "text": "Bedriftsrådgivning og telefonkonsultasjon"
           },
-          "value": 750,
-          "mva": 25
+          "value": 750
         }
       ]
     }
