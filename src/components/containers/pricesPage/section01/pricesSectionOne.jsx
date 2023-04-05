@@ -51,6 +51,7 @@ function PricesSectionOne(props) {
                   key={i}
                   headline={p.service.text}
                   list={[`${sum.toString().replace(".", ",")} kr`]}
+                  hasStyleType={false}
                 />
               );
             })}
