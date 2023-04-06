@@ -1,12 +1,13 @@
 import React from "react";
 import data from "../../../../assets/data.json";
-import { ImageTextSection } from "../../imageTextSection/imageTextSection";
 import { TextStyled } from "../../../text/text.style";
 import {
   desktopBig,
   desktopSmall,
   mobileBig,
+  mobileSmall,
   tabletBig,
+  tabletSmall,
 } from "../../../globals/fontSizes";
 import { standardColors } from "../../../../palettes/standardColors.style";
 
@@ -60,23 +61,32 @@ function ServicesSectionTwo(props) {
   ];
 
   return (
-    <ImageTextSection
-      className={props.className}
-      borderImagesHeight={"350px"}
-      images={[images[0], images[1]]}
-      textContentFirst={
-        <ServicesSectionOneService
-          headline={services[0].title}
-          text={services[0].about}
-        />
-      }
-      textContentSecond={
-        <ServicesSectionOneService
-          headline={services[1].title}
-          text={services[1].about}
-        />
-      }
-    />
+    <div className={"has-text-centered"}>
+      <TextStyled
+        text={"Info kommer snart"}
+        sizeDesktop={desktopSmall}
+        sizeTablet={tabletSmall}
+        sizeMobile={mobileSmall}
+      />
+    </div>
+    // TODO: Add the info.
+    // <ImageTextSection
+    //   className={props.className}
+    //   borderImagesHeight={"350px"}
+    //   images={[images[0], images[1]]}
+    //   textContentFirst={
+    //     <ServicesSectionOneService
+    //       headline={services[0].title}
+    //       text={services[0].about}
+    //     />
+    //   }
+    //   textContentSecond={
+    //     <ServicesSectionOneService
+    //       headline={services[1].title}
+    //       text={services[1].about}
+    //     />
+    //   }
+    // />
   );
 }
 
