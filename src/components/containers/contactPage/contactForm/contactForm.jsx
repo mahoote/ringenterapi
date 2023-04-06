@@ -19,10 +19,57 @@ import { TextAreaInput } from "../../../input/textarea/textAreaInput";
 import { ButtonStyled } from "../../../button/button.style";
 import { Loader } from "../../loader/loader";
 import * as emailjs from "@emailjs/browser";
+import { Link } from "react-router-dom";
+import LoaderSpinner from "../../../loader/loaderSpinner";
 
+function ErrorMessage() {
+  return (
+    <div className={"has-text-centered mb-5"}>
+      <TextStyled
+        text={`${data.contactPage.contactForm.error.line1.text} ${data.contactPage.contactForm.error.line2.text}`}
+        sizeDesktop={tabletSmall}
+        sizeTablet={tabletSmall}
+        sizeMobile={mobileSmall}
+        color={"red"}
+      />
+    </div>
+  );
+}
+
+function ConfirmationMessage() {
+  return (
+    <div className={"has-text-centered px-4"}>
+      <TextStyled
+        text={data.contactPage.contactForm.confirmation.line1.text}
+        sizeDesktop={desktopBig}
+        sizeTablet={tabletBig}
+        sizeMobile={mobileBig}
+        textWeight={"bold"}
+      />
+      <TextStyled
+        className={"my-4"}
+        text={data.contactPage.contactForm.confirmation.line2.text}
+        sizeDesktop={desktopSmall}
+        sizeTablet={tabletSmall}
+        sizeMobile={mobileSmall}
+      />
+      <div className={"mt-6"}>
+        <Link to={"/"}>
+          <ButtonStyled
+            className={"py-4"}
+            text={data.contactPage.contactForm.confirmation.backButton.text}
+            borderWidth={"2.2px"}
+            textSize={5}
+            textSizeTouch={5}
+          />
+        </Link>
+      </div>
+    </div>
+  );
+}
 function Heading() {
   return (
-    <div className={"has-text-centered"}>
+    <div className={"has-text-centered px-4"}>
       <TextStyled
         text={data.contactPage.contactForm.line1.text}
         sizeDesktop={desktopBig}
@@ -79,6 +126,10 @@ function FormInputs(props) {
 
   function handleSubmit(e) {
     e.preventDefault();
+
+    window.scrollTo({
+      top: 0,
+    });
 
     setSendLoading(true);
     setMessageSent(false);
@@ -154,13 +205,13 @@ function ContactFormContent(props) {
             <div className={"my-6"}>
               {errorSending ? (
                 <>
-                  <div>Error</div>
+                  <ErrorMessage />
                   <FormLayout />
                 </>
               ) : messageSent && !sendLoading ? (
-                <div>Yes it worked</div>
+                <ConfirmationMessage />
               ) : !messageSent && sendLoading ? (
-                <div>Loading...</div>
+                <LoaderSpinner size={"is-size-1"} />
               ) : (
                 <FormLayout />
               )}

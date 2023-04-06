@@ -187,7 +187,26 @@
           "size": 12,
           "name": "message"
         }
-      ]
+      ],
+      "confirmation": {
+        "line1": {
+          "text": "Takk for henvendelsen"
+        },
+        "line2": {
+          "text": "Jeg vil ta kontakt med deg så fort jeg har fått sett på saken."
+        },
+        "backButton": {
+          "text": "Tilbake til hovedsiden"
+        }
+      },
+      "error": {
+        "line1": {
+          "text": "Noe gikk galt!"
+        },
+        "line2": {
+          "text": "Last inn siden på nytt eller prøv igjen senere."
+        }
+      }
     }
   },
   "aboutPage": {
