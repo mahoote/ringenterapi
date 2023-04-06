@@ -8,7 +8,7 @@ import {
   tabletBig,
   tabletSmall,
 } from "../../../globals/fontSizes";
-import React, { useRef } from "react";
+import React, { useRef, useState } from "react";
 import { CenterStyled } from "../../center/center.style";
 import { TextInput } from "../../../input/text/textInput";
 import {
@@ -17,7 +17,6 @@ import {
 } from "./contactForm.style";
 import { TextAreaInput } from "../../../input/textarea/textAreaInput";
 import { ButtonStyled } from "../../../button/button.style";
-import { useNavigate } from "react-router-dom";
 import { Loader } from "../../loader/loader";
 import * as emailjs from "@emailjs/browser";
 
@@ -72,14 +71,18 @@ function FormInput(props) {
 }
 
 function FormInputs(props) {
-  const navigate = useNavigate();
+  const { setMessageSent, setErrorSending, setSendLoading } = props;
+
   const formValues = data.contactPage.contactForm.formValues;
 
   const formRef = useRef();
 
   function handleSubmit(e) {
     e.preventDefault();
-    console.log("Send");
+
+    setSendLoading(true);
+    setMessageSent(false);
+    setErrorSending(false);
 
     emailjs
       .sendForm(
@@ -89,15 +92,17 @@ function FormInputs(props) {
         "qPC4UbG5RGcXmMl8v"
       )
       .then(
-        function (response) {
-          console.log("SUCCESS!", response.status, response.text);
+        function () {
+          setSendLoading(false);
+          setMessageSent(true);
         },
         function (error) {
-          console.log("FAILED...", error);
+          console.log("SEND FAILED...", error);
+
+          setSendLoading(false);
+          setErrorSending(true);
         }
       );
-
-    navigate("/");
   }
 
   return (
@@ -123,6 +128,23 @@ function FormInputs(props) {
 }
 
 function ContactFormContent(props) {
+  const [messageSent, setMessageSent] = useState(false);
+  const [errorSending, setErrorSending] = useState(false);
+  const [sendLoading, setSendLoading] = useState(false);
+
+  const FormLayout = () => {
+    return (
+      <>
+        <Heading />
+        <FormInputsStyled
+          setMessageSent={setMessageSent}
+          setErrorSending={setErrorSending}
+          setSendLoading={setSendLoading}
+        />
+      </>
+    );
+  };
+
   return (
     <Loader
       content={
@@ -130,8 +152,18 @@ function ContactFormContent(props) {
           className={props.className}
           content={
             <div className={"my-6"}>
-              <Heading />
-              <FormInputsStyled />
+              {errorSending ? (
+                <>
+                  <div>Error</div>
+                  <FormLayout />
+                </>
+              ) : messageSent && !sendLoading ? (
+                <div>Yes it worked</div>
+              ) : !messageSent && sendLoading ? (
+                <div>Loading...</div>
+              ) : (
+                <FormLayout />
+              )}
             </div>
           }
         />
