@@ -7,7 +7,7 @@ const MainSectionTwoStyled = styled(MainSectionTwo)`
   color: ${standardColors.blue3};
   background-color: ${standardColors.blue1};
 
-  padding: 30em 2em;
+  padding: 23em 2em;
 
   @media screen and ${device.mobileL} {
     padding-left: 5em;
