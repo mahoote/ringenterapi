@@ -10,7 +10,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faFacebook,
   faInstagram,
-  faTwitter,
+  faLinkedin,
 } from "@fortawesome/free-brands-svg-icons";
 
 const currentYear = new Date().getFullYear();
@@ -90,17 +90,32 @@ function Footer(props) {
     return (
       <div>
         <div className={"mb-2"}>
-          {info.map((line, i) => (
-            <TextStyled key={i} text={line.text} sizeDesktop={5} />
-          ))}
+          {info.map((line, i) => {
+            const { type } = line;
+
+            // switch (type) {
+            //   case "link":
+            //     return (
+            //       <TextLinkStyled
+            //         className={"m-1"}
+            //         key={i}
+            //         to={""}
+            //         TextContent={"Test"}
+            //       />
+            //     );
+            //     break;
+            // }
+
+            return <TextStyled key={i} text={line.text} sizeDesktop={5} />;
+          })}
         </div>
 
         {socialMedia.map((media, i) => {
           let icon;
 
           switch (media.icon) {
-            case "twitter": {
-              icon = faTwitter;
+            case "linkedin": {
+              icon = faLinkedin;
               break;
             }
             case "instagram": {

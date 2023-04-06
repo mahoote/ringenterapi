@@ -33,7 +33,8 @@
     },
     {
       "text": "Niels Juelsgate 18, 0272 Oslo",
-      "icon": "location"
+      "icon": "location",
+      "type": "link"
     },
     {
       "text": ""
@@ -49,6 +50,10 @@
     {
       "link": "https://www.facebook.com/profile.php?id=100078164824593",
       "icon": "facebook"
+    },
+    {
+      "link": "https://www.linkedin.com/in/lin-therese-bj%C3%B8rnstad-567ba357/",
+      "icon": "linkedin"
     }
   ],
   "homePage": {
