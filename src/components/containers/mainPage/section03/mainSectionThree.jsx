@@ -107,7 +107,7 @@ function MainSectionThreeService(props) {
 }
 
 function MainSectionThreeServices() {
-  const categories = data.servicesPage.categories;
+  const categories = data.servicesPage.services;
 
   return (
     <CenterStyled

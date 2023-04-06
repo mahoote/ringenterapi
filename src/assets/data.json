@@ -250,36 +250,11 @@
     }
   },
   "servicesPage": {
-    "categories": [
+    "services": [
       {
         "title": "Familie-rådgivning",
         "about": "Lorem ipsum",
         "list": ["Punkt", "Punkt", "Punkt", "Punkt"],
-        "pageLink": "/services"
-      },
-      {
-        "title": "Organisasjons-psykologi",
-        "about": "Lorem ipsum",
-        "list": ["Punkt", "Punkt", "Punkt", "Punkt"],
-        "pageLink": "/services"
-      },
-      {
-        "title": "Psykoterapi",
-        "about": "Lorem ipsum",
-        "list": ["Punkt", "Punkt", "Punkt", "Punkt", "Punkt", "Punkt"],
-        "pageLink": "/services"
-      },
-      {
-        "title": "Kroppsterapi",
-        "about": "Lorem ipsum",
-        "list": ["Punkt", "Punkt", "Punkt", "Punkt"],
-        "pageLink": "/services"
-      }
-    ],
-    "services": [
-      {
-        "title": "Atferdsendring",
-        "about": "Lorem ipsum",
         "pageLink": "/services",
         "image": {
           "description": "Atferdsendring",
@@ -288,41 +263,34 @@
         }
       },
       {
-        "title": "Kropps- og triggerpunktterapi",
+        "title": "Organisasjons-psykologi",
         "about": "Lorem ipsum",
+        "list": ["Punkt", "Punkt", "Punkt", "Punkt"],
         "pageLink": "/services",
         "image": {
-          "description": "Kropps- og triggerpunktterapi",
+          "description": "Atferdsendring",
           "width": "500px",
           "widthMobile": "300px"
         }
       },
       {
-        "title": "Stress- og livsstilmestring",
+        "title": "Psykoterapi",
         "about": "Lorem ipsum",
+        "list": ["Punkt", "Punkt", "Punkt", "Punkt", "Punkt", "Punkt"],
         "pageLink": "/services",
         "image": {
-          "description": "Stress- og livsstilmestring",
+          "description": "Atferdsendring",
           "width": "500px",
           "widthMobile": "300px"
         }
       },
       {
-        "title": "Barne-og familierådgivning",
+        "title": "Kroppsterapi",
         "about": "Lorem ipsum",
+        "list": ["Punkt", "Punkt", "Punkt", "Punkt"],
         "pageLink": "/services",
         "image": {
-          "description": "Barne-og familierådgivning",
-          "width": "500px",
-          "widthMobile": "300px"
-        }
-      },
-      {
-        "title": "Organisasjonspsykologi",
-        "about": "Lorem ipsum",
-        "pageLink": "/services",
-        "image": {
-          "description": "Organisasjonspsykologi",
+          "description": "Atferdsendring",
           "width": "500px",
           "widthMobile": "300px"
         }
