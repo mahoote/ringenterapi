@@ -10,6 +10,10 @@ const FormInputsStyled = styled(FormInputs)`
   @media screen and ${device.tablet} {
     margin: 0 3rem;
   }
+
+  @media screen and ${device.tabletMax} {
+    width: 100vw;
+  }
 `;
 
 export { ContactFormContentStyled, FormInputsStyled };

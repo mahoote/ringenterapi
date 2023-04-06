@@ -5,17 +5,22 @@ import {
   AboutSectionOneIntro,
   AboutSectionOneParagraph,
 } from "./aboutSectionOne";
+import { device } from "../../../../sizes/screenSize.style";
 
 const AboutSectionOneStyled = styled(AboutSectionOne)`
   background-color: ${standardColors.white1};
 `;
 
 const AboutSectionOneIntroStyled = styled(AboutSectionOneIntro)`
-  width: 85%;
+  @media screen and ${device.laptop} {
+    width: 85%;
+  }
 `;
 
 const AboutSectionOneParagraphStyled = styled(AboutSectionOneParagraph)`
-  width: 85%;
+  @media screen and ${device.laptop} {
+    width: 85%;
+  }
 `;
 
 export {
