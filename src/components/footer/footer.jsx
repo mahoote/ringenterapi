@@ -93,20 +93,20 @@ function Footer(props) {
           {info.map((line, i) => {
             const { type } = line;
 
-            // switch (type) {
-            //   case "link":
-            //     return (
-            //       <TextLinkStyled
-            //         className={"m-1"}
-            //         key={i}
-            //         to={""}
-            //         TextContent={"Test"}
-            //       />
-            //     );
-            //     break;
-            // }
-
-            return <TextStyled key={i} text={line.text} sizeDesktop={5} />;
+            return (
+              <TextStyled
+                key={i}
+                text={line.text}
+                sizeDesktop={5}
+                linkTo={
+                  type === "address"
+                    ? `https://www.google.com/maps?q=${encodeURIComponent(
+                        line.text
+                      )}`
+                    : undefined
+                }
+              />
+            );
           })}
         </div>
 

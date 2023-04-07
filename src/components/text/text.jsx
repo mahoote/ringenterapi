@@ -35,19 +35,19 @@ function TextHighlight(props) {
 }
 
 function TextLink(props) {
-  const { className, to } = props;
+  const { className, to, TextContent } = props;
 
   if (to.toString().startsWith("http") || to.toString().startsWith("www")) {
     return (
       <HrefLinkStyled href={to} target={"_blank"} className={className}>
-        {props.TextContent}
+        {TextContent}
       </HrefLinkStyled>
     );
   }
 
   return (
     <Link to={to} className={className}>
-      {props.TextContent}
+      {TextContent}
     </Link>
   );
 }
@@ -103,6 +103,8 @@ function Text(props) {
       ))
     );
   }
+
+  console.log(linkTo);
 
   return (
     <div

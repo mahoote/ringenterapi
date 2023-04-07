@@ -38,6 +38,8 @@ const images = [
 ];
 
 function ContactInfoLine(props) {
+  const { line } = props;
+
   let icon;
 
   switch (props.line.icon) {
@@ -76,10 +78,15 @@ function ContactInfoLine(props) {
         ""
       )}
       <TextStyled
-        text={props.line.text}
+        text={line.text}
         sizeDesktop={tabletSmall}
         sizeTablet={tabletSmall}
         sizeMobile={mobileSmall}
+        linkTo={
+          line.type === "address"
+            ? `https://www.google.com/maps?q=${encodeURIComponent(line.text)}`
+            : undefined
+        }
       />
     </div>
   );
