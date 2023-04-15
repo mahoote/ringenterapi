@@ -1,5 +1,5 @@
 import { TextStyled } from "../../../text/text.style";
-import React, { useEffect, useRef, useState } from "react";
+import React, { useRef } from "react";
 import {
   desktopBig,
   desktopSmall,
@@ -8,7 +8,6 @@ import {
   tabletSmall,
 } from "../../../globals/fontSizes";
 import { MainSectionTwoTextStyled } from "./mainSectionTwo.style";
-import { useGetScreenDistance } from "../../../../hooks/screenDetection";
 import data from "../../../../assets/data.json";
 
 function MainSectionTwoText(props) {
@@ -42,23 +41,23 @@ function MainSectionTwoText(props) {
 
 function MainSectionTwo(props) {
   const ref = useRef();
-  const { topStart, bottomEnd } = useGetScreenDistance(ref);
-  const [showElement, setShowElement] = useState(false);
+  // const { topStart, bottomEnd } = useGetScreenDistance(ref);
+  // const [showElement, setShowElement] = useState(false);
 
-  const showThreshold = 300;
+  // const showThreshold = 300;
 
-  useEffect(() => {
-    // console.log("Top: " + topStart);
-    // console.log("Bottom end: " + bottomEnd);
-
-    if (topStart < showThreshold && bottomEnd < showThreshold) {
-      setShowElement(true);
-    } else setShowElement(false);
-  }, [topStart, bottomEnd]);
+  // useEffect(() => {
+  //   // console.log("Top: " + topStart);
+  //   // console.log("Bottom end: " + bottomEnd);
+  //
+  //   if (topStart < showThreshold && bottomEnd < showThreshold) {
+  //     setShowElement(true);
+  //   } else setShowElement(false);
+  // }, [topStart, bottomEnd]);
 
   return (
     <div className={props.className} ref={ref}>
-      <MainSectionTwoTextStyled showElement={showElement} />
+      <MainSectionTwoTextStyled showElement={true} />
     </div>
   );
 }
