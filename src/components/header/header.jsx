@@ -129,7 +129,7 @@ function Header(props) {
               sizeTouch={3}
             />
             <TextStyled
-              text={"Fordi alt henger sammen"}
+              text={data.slogan}
               color={standardColors.blue1}
               size={5}
             />

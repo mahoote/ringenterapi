@@ -104,8 +104,6 @@ function Text(props) {
     );
   }
 
-  console.log(linkTo);
-
   return (
     <div
       className={

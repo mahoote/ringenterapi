@@ -1,5 +1,6 @@
 {
   "websiteName": "Ringenterapi",
+  "slogan": "Fordi alt henger sammen",
   "links": [
     {
       "name": "Om meg",
@@ -252,8 +253,8 @@
   "servicesPage": {
     "services": [
       {
-        "title": "Familie-rådgivning",
-        "about": "Lorem ipsum",
+        "title": "Atferdsterapi",
+        "about": "Atferdsterapi i Ringenterapi går ut på å kartlegge triggere som utløser uønsket atferd og hendelser, som depresjon, konflikter i relasjoner som i kjærlighet, familie, kolleger. Stress, fysiske smerter og usunn livsstil, opplevelsen av utenforskap og annerledeshet. Ofte kan problemene dine føre til fysiske plager og/eller være påvirket av eller påvirke relasjoner som familie eller arbeidsplass.",
         "list": ["Punkt", "Punkt", "Punkt", "Punkt"],
         "pageLink": "/services",
         "image": {
@@ -263,8 +264,8 @@
         }
       },
       {
-        "title": "Organisasjons-psykologi",
-        "about": "Lorem ipsum",
+        "title": "Arbeidspsykologi",
+        "about": "Arbeidspsykologi via Ringenterapi kan være hensiktsmessig om en eller flerre personers atferd fører til konflikter, lav gjennomføringsevne som påvirker bunnlinja og arbeidsmiljø. Det kan også handle om å se på HMS, lederutvikling og utviklingsledelse fra en 3.person med erfaring og utdanning innen atferdsøkonomi, konflikthåndtering, risikostyring, systemdynamikk.",
         "list": ["Punkt", "Punkt", "Punkt", "Punkt"],
         "pageLink": "/services",
         "image": {
@@ -274,8 +275,8 @@
         }
       },
       {
-        "title": "Psykoterapi",
-        "about": "Lorem ipsum",
+        "title": "Familie- og livsstilsveiledning",
+        "about": "Familie- og livsstilsveiledning kan være uvurdelig om en eller flere i nettverket strever med uønsket atferd som påvirker  gjensidig og kan etablere seg til en ukultur og i verste fall brudd i nære relasjoner. Ofte kan det handle om avhengighet, psykisk sykdom, ulikt syn på oppdragelse, livssyn og livsstil. Ringenterapi har lang erfaring og utdanning som ernæring- og livsstilsrådgiver, familie og barneveileder som utdannet pedagog med master i atferdspsykologi, mange års arbeiderfaring.",
         "list": ["Punkt", "Punkt", "Punkt", "Punkt", "Punkt", "Punkt"],
         "pageLink": "/services",
         "image": {
@@ -286,7 +287,7 @@
       },
       {
         "title": "Kroppsterapi",
-        "about": "Lorem ipsum",
+        "about": "Kroppsterapi via Ringenterapi er en måte å jobbe helhetlig med atferd, både personlig og kollektivt, livsstil og forhold i arbeidslivet som fører til stress, muskelspenninger, betennelser, migrene og manglende energi til å leve sunnere. Gjennom å jobbe med triggerpunkter, vagusnerven, energibalanse, kosthold og livsstil parallelt med samtaleterapi for å endre atferdsmønster, kan man raskere oppnå positive endringer i kropp og sjel samtidig som nære relasjoner og forhold på arbeidsplassen utvikles positivt. Ringenterapi tar utgangspunkt i at utfordringer henger sammen og krever terapeuter med erfaring og utdanning innen flere områder.",
         "list": ["Punkt", "Punkt", "Punkt", "Punkt"],
         "pageLink": "/services",
         "image": {
