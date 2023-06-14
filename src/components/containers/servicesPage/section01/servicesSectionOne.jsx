@@ -48,7 +48,7 @@ function ServicesSectionOneHeadline(props) {
           sizeTablet={tabletSmall}
           sizeMobile={mobileSmall}
           textWeight={"bold"}
-          linkTo={service.pageLink}
+          linkTo={"#" + service.title}
         />
       ))}
     </div>

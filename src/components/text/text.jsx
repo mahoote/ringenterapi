@@ -43,6 +43,12 @@ function TextLink(props) {
         {TextContent}
       </HrefLinkStyled>
     );
+  } else if (to.toString().startsWith("#")) {
+    return (
+      <HrefLinkStyled href={to} className={className}>
+        {TextContent}
+      </HrefLinkStyled>
+    );
   }
 
   return (

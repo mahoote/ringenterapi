@@ -4,41 +4,19 @@ import { TextStyled } from "../../../text/text.style";
 import {
   desktopBig,
   desktopSmall,
-  mobileBig,
   mobileSmall,
   tabletBig,
   tabletSmall,
 } from "../../../globals/fontSizes";
-import { standardColors } from "../../../../palettes/standardColors.style";
+import { Container } from "./servicesSectionTwo.style";
 
-function ServicesSectionOneService(props) {
-  return (
-    <div className={props.className}>
-      <TextStyled
-        text={props.headline}
-        sizeDesktop={desktopBig}
-        sizeTablet={tabletBig}
-        sizeMobile={mobileBig}
-        textWeight={"bold"}
-      />
-      <TextStyled
-        className={"my-5"}
-        text={props.text}
-        sizeDesktop={desktopSmall}
-        sizeTablet={desktopSmall}
-        sizeMobile={desktopSmall}
-      />
-    </div>
-  );
-}
-
-function ServicesSectionTwo(props) {
+function ServicesSectionTwo() {
   const services = data.servicesPage.services;
 
   return (
-    <div>
+    <Container>
       {services.map((service, i) => (
-        <div key={i} className={"my-6"}>
+        <div key={i} className={"my-6"} id={service.title}>
           <TextStyled
             text={service.title}
             sizeDesktop={desktopBig}
@@ -53,7 +31,7 @@ function ServicesSectionTwo(props) {
           />
         </div>
       ))}
-    </div>
+    </Container>
   );
 }
 
