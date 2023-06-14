@@ -128,8 +128,12 @@ function Header(props) {
               size={2}
               sizeTouch={3}
             />
+            <TextStyled
+              text={"Fordi alt henger sammen"}
+              color={standardColors.blue1}
+              size={5}
+            />
           </Link>
-
           <MenuBurgerStyled onClick={handleOnclick} showMenu={showMobileMenu} />
         </div>
 
