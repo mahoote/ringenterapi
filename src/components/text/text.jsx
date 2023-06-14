@@ -6,6 +6,7 @@ import {
   TextLinkStyled,
 } from "./text.style";
 import { Link } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
 
 function TextContentSpan(props) {
   const textWeight = useTextWeight(props.highlightTextWeight);
@@ -48,6 +49,12 @@ function TextLink(props) {
       <HrefLinkStyled href={to} className={className}>
         {TextContent}
       </HrefLinkStyled>
+    );
+  } else if (to.toString().includes("#")) {
+    return (
+      <HashLink to={to} className={className}>
+        {TextContent}
+      </HashLink>
     );
   }
 

@@ -4,7 +4,7 @@ import { Text, TextContentSpan, TextLink } from "./text";
 const TextStyled = styled(Text)`
   color: ${(props) => props.color};
   text-decoration: none;
-  overflow-wrap: anywhere;
+  overflow-wrap: break-word;
 `;
 
 const TextContentSpanStyled = styled(TextContentSpan)`

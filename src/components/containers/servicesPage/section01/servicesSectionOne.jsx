@@ -14,11 +14,11 @@ import { ServicesSectionOneHeadlineStyled } from "./servicesSectionOne.style";
 import { standardColors } from "../../../../palettes/standardColors.style";
 const images = [
   {
-    src: require("../../../../assets/images/people01.jpg"),
+    src: require("../../../../assets/images/family01.jpg"),
     alt: data.servicesPage.section1.image1.description,
     width: data.servicesPage.section1.image1.width,
     widthMobile: data.servicesPage.section1.image1.widthMobile,
-    backgroundColor: standardColors.blue1,
+    backgroundColor: standardColors.brown4,
     offsetX: "-3em",
     offsetY: "2em",
     offsetXMobile: "-1em",

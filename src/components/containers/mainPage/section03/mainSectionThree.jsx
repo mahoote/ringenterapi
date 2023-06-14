@@ -65,7 +65,7 @@ function MainSectionThreeService(props) {
   const { i, service, className } = props;
 
   return (
-    <div key={i} className={" column is-4 my-3 mx-5 "}>
+    <div key={i} className={" column is-5 my-3 "}>
       <Loader
         content={
           <>

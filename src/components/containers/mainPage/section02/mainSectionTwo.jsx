@@ -25,7 +25,7 @@ function MainSectionTwoText(props) {
         highlightTextWeight={"bold"}
       />
       <TextStyled
-        className={"is-hidden-tablet has-text-centered"}
+        className={"is-hidden-tablet"}
         textWeight={"light"}
         text={data.homePage.section2.line.text}
         sizeDesktop={desktopSmall}
