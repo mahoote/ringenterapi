@@ -79,7 +79,7 @@ function MainSectionThreeService(props) {
               />
               {service.list.map((item, i) => (
                 <ul key={i}>
-                  <li className={" my-2 "}>
+                  <li className={" my-2 "} style={{ listStyleType: "square" }}>
                     <TextStyled
                       text={item}
                       sizeDesktop={desktopSmall}
@@ -97,7 +97,7 @@ function MainSectionThreeService(props) {
               sizeTablet={tabletSmall}
               sizeMobile={mobileSmall}
               color={standardColors.brown3}
-              linkTo={service.pageLink}
+              linkTo={service.pageLink + "#" + service.title}
             />
           </>
         }

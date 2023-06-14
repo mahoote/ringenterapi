@@ -254,8 +254,13 @@
     "services": [
       {
         "title": "Atferdsterapi",
-        "about": "Atferdsterapi i Ringenterapi går ut på å kartlegge triggere som utløser uønsket atferd og hendelser, som depresjon, konflikter i relasjoner som i kjærlighet, familie, kolleger. Stress, fysiske smerter og usunn livsstil, opplevelsen av utenforskap og annerledeshet. Ofte kan problemene dine føre til fysiske plager og/eller være påvirket av eller påvirke relasjoner som familie eller arbeidsplass.",
-        "list": ["Punkt", "Punkt", "Punkt", "Punkt"],
+        "about": "Atferdsterapi i Ringenterapi går ut på å kartlegge triggere som utløser uønsket atferd og hendelser, som depresjon, konflikter i relasjoner som i kjærlighet, familie, kolleger.\n\n Stress, fysiske smerter og usunn livsstil, opplevelsen av utenforskap og annerledeshet. Ofte kan problemene dine føre til fysiske plager og/eller være påvirket av eller påvirke relasjoner som familie eller arbeidsplass.",
+        "list": [
+          "Kartlegging av triggere for uønsket atferd.",
+          "Fokus på psykiske tilstander som depresjon og konflikter i relasjoner.",
+          "Forståelse av stress, fysiske smerter, usunn livsstil, og følelse av utenforskap.",
+          "Vurdering av sammenhengen mellom psykiske problemer og fysiske plager samt påvirkning på relasjoner."
+        ],
         "pageLink": "/services",
         "image": {
           "description": "Atferdsendring",
@@ -265,8 +270,13 @@
       },
       {
         "title": "Arbeidspsykologi",
-        "about": "Arbeidspsykologi via Ringenterapi kan være hensiktsmessig om en eller flerre personers atferd fører til konflikter, lav gjennomføringsevne som påvirker bunnlinja og arbeidsmiljø. Det kan også handle om å se på HMS, lederutvikling og utviklingsledelse fra en 3.person med erfaring og utdanning innen atferdsøkonomi, konflikthåndtering, risikostyring, systemdynamikk.",
-        "list": ["Punkt", "Punkt", "Punkt", "Punkt"],
+        "about": "Arbeidspsykologi via Ringenterapi kan være hensiktsmessig om en eller flerre personers atferd fører til konflikter, lav gjennomføringsevne som påvirker bunnlinja og arbeidsmiljø.\n\n Det kan også handle om å se på HMS, lederutvikling og utviklingsledelse fra en 3.person med erfaring og utdanning innen atferdsøkonomi, konflikthåndtering, risikostyring, systemdynamikk.",
+        "list": [
+          "Adferdsproblemer som fører til arbeidskonflikter og påvirker effektivitet.",
+          "Betydningen for bunnlinjen og arbeidsmiljøet.",
+          "Vurdering av HMS, lederutvikling og utviklingsledelse.",
+          "Ekspertise i atferdsøkonomi, konflikthåndtering, risikostyring, og systemdynamikk."
+        ],
         "pageLink": "/services",
         "image": {
           "description": "Atferdsendring",
@@ -276,8 +286,13 @@
       },
       {
         "title": "Familie- og livsstilsveiledning",
-        "about": "Familie- og livsstilsveiledning kan være uvurdelig om en eller flere i nettverket strever med uønsket atferd som påvirker  gjensidig og kan etablere seg til en ukultur og i verste fall brudd i nære relasjoner. Ofte kan det handle om avhengighet, psykisk sykdom, ulikt syn på oppdragelse, livssyn og livsstil. Ringenterapi har lang erfaring og utdanning som ernæring- og livsstilsrådgiver, familie og barneveileder som utdannet pedagog med master i atferdspsykologi, mange års arbeiderfaring.",
-        "list": ["Punkt", "Punkt", "Punkt", "Punkt", "Punkt", "Punkt"],
+        "about": "Familie- og livsstilsveiledning kan være uvurdelig om en eller flere i nettverket strever med uønsket atferd som påvirker  gjensidig og kan etablere seg til en ukultur og i verste fall brudd i nære relasjoner.\n\n Ofte kan det handle om avhengighet, psykisk sykdom, ulikt syn på oppdragelse, livssyn og livsstil. Ringenterapi har lang erfaring og utdanning som ernæring- og livsstilsrådgiver, familie og barneveileder som utdannet pedagog med master i atferdspsykologi, mange års arbeiderfaring.",
+        "list": [
+          "Håndtering av uønsket atferd i nære relasjoner og forebygging av negativ kultur.",
+          "Fokus på avhengighet, psykisk sykdom, og ulikheter i oppdragelse, livssyn, og livsstil.",
+          "Tilbud om ernæring- og livsstilsrådgivning.",
+          "Ekspertise som pedagog med master i atferdspsykologi og lang arbeidserfaring."
+        ],
         "pageLink": "/services",
         "image": {
           "description": "Atferdsendring",
@@ -287,8 +302,13 @@
       },
       {
         "title": "Kroppsterapi",
-        "about": "Kroppsterapi via Ringenterapi er en måte å jobbe helhetlig med atferd, både personlig og kollektivt, livsstil og forhold i arbeidslivet som fører til stress, muskelspenninger, betennelser, migrene og manglende energi til å leve sunnere. Gjennom å jobbe med triggerpunkter, vagusnerven, energibalanse, kosthold og livsstil parallelt med samtaleterapi for å endre atferdsmønster, kan man raskere oppnå positive endringer i kropp og sjel samtidig som nære relasjoner og forhold på arbeidsplassen utvikles positivt. Ringenterapi tar utgangspunkt i at utfordringer henger sammen og krever terapeuter med erfaring og utdanning innen flere områder.",
-        "list": ["Punkt", "Punkt", "Punkt", "Punkt"],
+        "about": "Kroppsterapi via Ringenterapi er en måte å jobbe helhetlig med atferd, både personlig og kollektivt, livsstil og forhold i arbeidslivet som fører til stress, muskelspenninger, betennelser, migrene og manglende energi til å leve sunnere.\n\n Gjennom å jobbe med triggerpunkter, vagusnerven, energibalanse, kosthold og livsstil parallelt med samtaleterapi for å endre atferdsmønster, kan man raskere oppnå positive endringer i kropp og sjel samtidig som nære relasjoner og forhold på arbeidsplassen utvikles positivt.\n\n Ringenterapi tar utgangspunkt i at utfordringer henger sammen og krever terapeuter med erfaring og utdanning innen flere områder.",
+        "list": [
+          "Helhetlig tilnærming til atferd, livsstil og arbeidsrelatert stress som fører til fysiske plager.",
+          "Behandling gjennom arbeid med triggerpunkter, vagusnerven, energibalanse, kosthold og livsstil, sammen med samtaleterapi.",
+          "Målet om å oppnå positive endringer i både kropp og sjel, samt forbedre relasjoner og arbeidsforhold.",
+          "Tverrfaglig tilnærming med terapeuter med erfaring og utdanning innen flere områder."
+        ],
         "pageLink": "/services",
         "image": {
           "description": "Atferdsendring",
